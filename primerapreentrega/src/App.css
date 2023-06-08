@@ -1,0 +1,63 @@
+/* Estilos generales */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .categories {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .categories li {
+    margin-right: 10px;
+  }
+  
+  .categories li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .cart-widget {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .notification {
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item-list-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .greeting {
+    font-size: 20px;
+    color: #333;
+  }
+  
